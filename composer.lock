@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e610f2678b727cb8cc76a134d7f5e54",
+    "content-hash": "7935674e176fbd41fe6428fd79bb8786",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -1176,12 +1176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/savemetenminutes/zf-x-config.git",
-                "reference": "f0c5589a90b4ae05d3eaf6d20fee37960e28a256"
+                "reference": "2182aa20a098635bb030cb982ebfec4469c2034d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/savemetenminutes/zf-x-config/zipball/f0c5589a90b4ae05d3eaf6d20fee37960e28a256",
-                "reference": "f0c5589a90b4ae05d3eaf6d20fee37960e28a256",
+                "url": "https://api.github.com/repos/savemetenminutes/zf-x-config/zipball/2182aa20a098635bb030cb982ebfec4469c2034d",
+                "reference": "2182aa20a098635bb030cb982ebfec4469c2034d",
                 "shasum": ""
             },
             "require": {
@@ -1191,7 +1191,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Smtm\\ZendExtended\\Config\\": "src/"
+                    "Smtm\\Zfx\\Config\\": "src/"
                 }
             },
             "license": [
@@ -1203,13 +1203,13 @@
                     "email": "savemetenminutes@gmail.com"
                 }
             ],
-            "description": "extended classes for zend framework",
+            "description": "extended classes for zend framework (zend-config)",
             "homepage": "https://github.com/savemetenminutes/zf-x-config",
             "support": {
                 "source": "https://github.com/savemetenminutes/zf-x-config/tree/master",
                 "issues": "https://github.com/savemetenminutes/zf-x-config/issues"
             },
-            "time": "2018-05-10T23:14:08+00:00"
+            "time": "2018-05-14T04:48:16+00:00"
         },
         {
             "name": "savemetenminutes/zf-x-db",
@@ -1217,12 +1217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/savemetenminutes/zf-x-db.git",
-                "reference": "3eb0742c6f86abaa36c3c8e7040037e6837b55a4"
+                "reference": "f5234a97573683d6355e282562c649a138acf857"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/savemetenminutes/zf-x-db/zipball/3eb0742c6f86abaa36c3c8e7040037e6837b55a4",
-                "reference": "3eb0742c6f86abaa36c3c8e7040037e6837b55a4",
+                "url": "https://api.github.com/repos/savemetenminutes/zf-x-db/zipball/f5234a97573683d6355e282562c649a138acf857",
+                "reference": "f5234a97573683d6355e282562c649a138acf857",
                 "shasum": ""
             },
             "require": {
@@ -1250,7 +1250,48 @@
                 "source": "https://github.com/savemetenminutes/zf-x-db/tree/master",
                 "issues": "https://github.com/savemetenminutes/zf-x-db/issues"
             },
-            "time": "2018-05-10T23:12:50+00:00"
+            "time": "2018-05-14T04:48:49+00:00"
+        },
+        {
+            "name": "savemetenminutes/zf-x-uri",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/savemetenminutes/zf-x-uri.git",
+                "reference": "434ea40bae3a03b81cf31e62994c54c4729af46e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/savemetenminutes/zf-x-uri/zipball/434ea40bae3a03b81cf31e62994c54c4729af46e",
+                "reference": "434ea40bae3a03b81cf31e62994c54c4729af46e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7",
+                "zendframework/zend-uri": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Smtm\\Zfx\\Uri\\": "src/"
+                }
+            },
+            "license": [
+                "BSD 3-Clause License"
+            ],
+            "authors": [
+                {
+                    "name": "M. Kirilov",
+                    "email": "savemetenminutes@gmail.com"
+                }
+            ],
+            "description": "extended classes for zend framework (zend-uri)",
+            "homepage": "https://github.com/savemetenminutes/zf-x-uri",
+            "support": {
+                "source": "https://github.com/savemetenminutes/zf-x-uri/tree/master",
+                "issues": "https://github.com/savemetenminutes/zf-x-uri/issues"
+            },
+            "time": "2018-05-16T18:15:50+00:00"
         },
         {
             "name": "symfony/options-resolver",
@@ -2244,16 +2285,16 @@
         },
         {
             "name": "zendframework/zend-i18n",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-i18n.git",
-                "reference": "cfdb658121e0d7eb969a498c2f67f1eacaab9c63"
+                "reference": "6d69af5a04e1a4de7250043cb1322f077a0cdb7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-i18n/zipball/cfdb658121e0d7eb969a498c2f67f1eacaab9c63",
-                "reference": "cfdb658121e0d7eb969a498c2f67f1eacaab9c63",
+                "url": "https://api.github.com/repos/zendframework/zend-i18n/zipball/6d69af5a04e1a4de7250043cb1322f077a0cdb7f",
+                "reference": "6d69af5a04e1a4de7250043cb1322f077a0cdb7f",
                 "shasum": ""
             },
             "require": {
@@ -2285,8 +2326,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8.x-dev",
-                    "dev-develop": "2.9.x-dev"
+                    "dev-master": "2.9.x-dev",
+                    "dev-develop": "2.10.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\I18n",
@@ -2308,7 +2349,7 @@
                 "i18n",
                 "zf"
             ],
-            "time": "2018-04-25T19:32:43+00:00"
+            "time": "2018-05-16T16:39:13+00:00"
         },
         {
             "name": "zendframework/zend-i18n-resources",
@@ -2358,16 +2399,16 @@
         },
         {
             "name": "zendframework/zend-inputfilter",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-inputfilter.git",
-                "reference": "55d1430db559e9781b147e73c2c0ce6635d8efe2"
+                "reference": "3f02179e014d9ef0faccda2ad6c65d38adc338d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-inputfilter/zipball/55d1430db559e9781b147e73c2c0ce6635d8efe2",
-                "reference": "55d1430db559e9781b147e73c2c0ce6635d8efe2",
+                "url": "https://api.github.com/repos/zendframework/zend-inputfilter/zipball/3f02179e014d9ef0faccda2ad6c65d38adc338d8",
+                "reference": "3f02179e014d9ef0faccda2ad6c65d38adc338d8",
                 "shasum": ""
             },
             "require": {
@@ -2407,7 +2448,7 @@
                 "inputfilter",
                 "zf"
             ],
-            "time": "2018-01-22T19:41:18+00:00"
+            "time": "2018-05-14T17:38:03+00:00"
         },
         {
             "name": "zendframework/zend-json",
@@ -5634,6 +5675,7 @@
         "zendframework/zend-component-installer": 20,
         "zendframework/zend-view": 20,
         "savemetenminutes/zf-x-config": 20,
+        "savemetenminutes/zf-x-uri": 20,
         "savemetenminutes/zf-x-db": 20,
         "savemetenminutes/crawlbot": 20
     },
